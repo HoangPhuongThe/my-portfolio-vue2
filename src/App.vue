@@ -1,17 +1,20 @@
-<template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view />
-  </div>
+<template lang="pug">
+#app
+  nav 
+    router-link(to="/") Home
+    router-link(to="/about") About
+  router-view
 </template>
 
 <script lang="ts">
-import '@/styles/style.css';
-import { Vue } from 'vue-property-decorator';
+import { Vue,Component } from 'vue-property-decorator';
+import HomeView from '@/views/HomeView.vue'
 
+@Component({
+  components: {
+    HomeView
+  }
+})
 export default class App extends Vue {
 
 }
