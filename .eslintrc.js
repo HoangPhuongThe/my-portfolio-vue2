@@ -6,11 +6,9 @@ module.exports = {
   extends: ['plugin:vue/essential', 'eslint:recommended'],
   rules: {},
 
-  parser: 'babel-eslint',
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-      modules: true,
-    },
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
   },
 };

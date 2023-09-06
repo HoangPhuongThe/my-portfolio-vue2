@@ -7,14 +7,16 @@
     <router-view />
   </div>
 </template>
+
 <script lang="ts">
 import '@/styles/style.css';
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Vue } from 'vue-property-decorator';
 
 export default class App extends Vue {
 
 }
 </script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
