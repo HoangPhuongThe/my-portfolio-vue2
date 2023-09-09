@@ -13,6 +13,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
   components: {
     HelloWorld,
   },
+  props: {
+    msg: {
+      type: String,
+      default: ""
+    }
+  }
 })
 export default class AboutView extends Vue {}
 </script>

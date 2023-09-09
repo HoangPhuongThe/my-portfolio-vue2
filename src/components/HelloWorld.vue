@@ -1,5 +1,6 @@
 <template lang="pug">
-h1(:msg="msg")
+h1 {{ msg }}
+
 </template>
 
 <style lang='stylus' scoped>
