@@ -1,15 +1,18 @@
 <template lang="pug">
-.home
+.home-page
   Banner
+  MyProject
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import Banner from "@/components/banner/Banner.vue";
+import MyProject from "@/components/projects/MyProject.vue"
 
 @Component({
   components: {
-    Banner
+    Banner,
+    MyProject
   },
   props: {
     msg: {

@@ -23,7 +23,7 @@ export default class Banner extends Vue {
 
 <style scoped>
 /* banner */.banner {
-  background: url("https://i.imgur.com/EHazgLp.jpg")
+  background: url("https://i.imgur.com/AaEXEjU.jpg")
 		no-repeat center center / cover;
     height: 500px;
     width:100%;
