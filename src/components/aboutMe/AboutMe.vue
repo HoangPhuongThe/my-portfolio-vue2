@@ -2,7 +2,8 @@
 .about-me.p-10
     h2.uppercase A little about me
     .content-about-me.flex
-        .flex.justify-center.items-center.flex-1.pr-4
+        .flex-1.pr-4
+            img.img-avatar.mb-10(src="@/assets/me-3.jpg")
             p {{ content }}
         .img-profile.flex-1
             img(src="@/assets/me-1.jpg")
@@ -23,6 +24,14 @@ export default class AboutMe extends Vue {
 <style scoped>
 img{
     width:100%
+}
+
+.img-avatar{
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin: 28px auto;
+    object-fit: cover;
 }
 
 .about-me h2 {

@@ -26,6 +26,7 @@ export default class MyProject extends Vue {
     background: url("@/assets/me-2.jpg")
 		no-repeat center center / cover;
     height: 500px;
+    max-width: 1440px;
     width:100%;
 }
 
